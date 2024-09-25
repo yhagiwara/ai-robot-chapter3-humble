@@ -25,7 +25,7 @@ pip3 install SpeechRecognition[whisper-local] soundfile
 - 音声合成で用いるライブラリをインストールします。
 ```
 pip3 install gTTS
-sudo apt install mpg123
+sudo apt -y install mpg123
 pip3 install mpg123
 ```
 - サンプルプログラムを以下のコマンドでGitHubからクローンします．
