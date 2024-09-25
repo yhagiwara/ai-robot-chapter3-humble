@@ -7,8 +7,8 @@ ROS2とPythonで作って学ぶAIロボット入門（出村・萩原・升谷�
 ## インストール
 - オーディオ関連を扱うためのライブラリを以下のコマンドでインストールします．
 ```
-sudo apt install portaudio19-dev
-sudo apt install pulseaudio
+sudo apt -y install portaudio19-dev
+sudo apt -y install pulseaudio
 ```
 - Pythonのモジュールとして呼びたすために，以下のコマンドを実行します．
 ```
