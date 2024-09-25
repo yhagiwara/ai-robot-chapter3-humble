@@ -27,9 +27,9 @@
     ```
     ros2 run speech_action speech_synthesis_client
     ```
-  - 新しい端末を開いて発話させたいメッセージを /speech に送ります．
+  - 発話させたいメッセージをクライアント側に入力します．
     ```
-    ros2 topic pub -1 /speech std_msgs/msg/String "{data: 'I will go to the kitchen and grab a bottle.'}"
+    > I will go to the kitchen and grab a bottle.
     ```
   - スピーカから音声が出力されます．
 
