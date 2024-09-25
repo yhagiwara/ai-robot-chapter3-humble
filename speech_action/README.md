@@ -6,11 +6,7 @@
 
 ## 実行
 - 音声認識の実行手順（3.1節）
-  - 端末を開いて /speech トピックへパブリッシュしたデータを見られるようにします．
-    ```
-    ros2 topic echo /speech
-    ```
-  - 新しい端末を開いて音声認識サーバを起動します．
+  - 端末を開いて音声認識サーバを起動します．
     ```
     ros2 run speech_action speech_recognition_server
     ```
