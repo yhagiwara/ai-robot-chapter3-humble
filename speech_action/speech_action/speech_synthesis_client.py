@@ -1,4 +1,3 @@
-import readline
 import threading
 import rclpy
 from rclpy.action import ActionClient
